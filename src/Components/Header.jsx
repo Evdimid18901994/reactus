@@ -25,9 +25,9 @@ export default function Header(props) {
     <header>
     <div className='Logo'>Shop
     <ul className = "nav">
-        <li>About us</li>
-        <li>Contacts</li>
-        <li>Office</li>
+        <li><a href = "https://evdimid18901994.github.io/BurgerISUUS/">About us</a></li>
+        <li><a href = "https://vlados.streamlit.app/">Streamlit</a></li>
+        <li><a href = "https://www.arizona.edu/">Arizona</a></li>
         <li><FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className= {`shopcart ${cartOpen && 'active'}`} /></li>
     </ul>
 
